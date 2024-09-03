@@ -6,6 +6,9 @@ public class Main {
         System.out.println("Hello world!");
         System.out.println("I like Java;");
 
-        System.out.println("My name is "+name+".");
+        double a = 6.5;
+        char b = '!';
+
+        System.out.println("My name is "+name+", and I slept"+a+"hour"+b);
     }
 }
