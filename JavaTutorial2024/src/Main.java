@@ -6,9 +6,21 @@ public class Main {
         System.out.println("Hello world!");
         System.out.println("I like Java;");
 
-        double a = 6.5;
-        char b = '!';
+        double sleptHour = 6.5;
+        char endOfSyntax = '!';
+        System.out.println("My name is "+name+", and I slept "+sleptHour+" hour"+endOfSyntax);
 
-        System.out.println("My name is "+name+", and I slept"+a+"hour"+b);
+        final String MY_IDENTITY = "identity";
+
+        System.out.println((float)1);
+        System.out.println((int)1.1+1);
+
+        String s1 = String.valueOf(1);
+        s1 = Integer.toString(1);
+        int i = Integer.parseInt("1");
     }
 }
+//주석1
+/*
+* 주석2
+*/
