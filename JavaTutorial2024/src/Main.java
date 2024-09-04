@@ -18,6 +18,11 @@ public class Main {
         String s1 = String.valueOf(1);
         s1 = Integer.toString(1);
         int i = Integer.parseInt("1");
+
+        int[] aas = {1,2,30};
+        for (int aa: aas){
+            System.out.println(aa);
+        }
     }
 }
 //주석1
