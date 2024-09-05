@@ -23,6 +23,15 @@ public class Main {
         for (int aa: aas){
             System.out.println(aa);
         }
+
+        power(3);
+        power(3,4);
+    }
+    public static void power(int a){
+        System.out.println(a*a);
+    }
+    public static void power(int a, int b){
+        System.out.println(a*b);
     }
 }
 //주석1
