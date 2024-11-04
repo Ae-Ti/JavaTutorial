@@ -10,6 +10,13 @@ public class MainController {
     @GetMapping("/")
     @ResponseBody
     public String index() {
-        return ("Hello World");
+        return ("Hello My Application!!!");
     }
+
+    @GetMapping("/Hello")
+    @ResponseBody
+    public String index2() {
+        return "Hello Hello";
+    }
+
 }
